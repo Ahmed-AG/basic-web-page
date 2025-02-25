@@ -7,7 +7,6 @@ provider "aws" {
 variable "aws_profile" {
   description = "AWS profile to use"
   type        = string
-  default     = "lw-cs1-admin-role-271985591511"
 }
 
 variable "aws_region" {
