@@ -1,13 +1,6 @@
 provider "aws" {
   region  = "us-east-1"
- # profile = var.aws_profile
 }
-
-# Variables
-#variable "aws_profile" {
-#  description = "AWS profile to use"
-#  type        = string
-#}
 
 variable "aws_region" {
   description = "AWS region"
