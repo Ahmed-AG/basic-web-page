@@ -25,7 +25,7 @@ variable "instance_type" {
 variable "ami_id" {
   description = "AMI ID for EC2 instances"
   type        = string
-  default     = "ami-01034f11c291816b6"
+  default     = "ami-04b4f1a9cf54c11d0"
 }
 
 # Convert email addresses into valid key names (replace @ and .)
